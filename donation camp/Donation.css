@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+/* navbar styling  */
+nav{
+  background-color: black;
+  color: #000000;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 1px 1px 2px red;
+
+}
+
+.key:hover{
+color: greenyellow;
+}
+
+
+.keys{
+  display: flex;
+}
+.key{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+ /* background image styling */
+ .background{
+    background: url(pic/emergency\,.background.webp);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    
+ }
+/* form styling */
+  form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  select {
+    height: 40px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  
+  /* button styling */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: red;
+  }
+ 
